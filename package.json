@@ -1,0 +1,35 @@
+{
+  "name": "retro-cassette-3d-showcase",
+  "private": true,
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "description": "Interactive 3D Retro Cassette Showcase (2x2 Comparison Grid) built with React, TypeScript, Vite, Three.js, React Three Fiber, Drei, GSAP, and Tailwind CSS",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "tsc --noEmit",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fontsource/iansui": "^5.3.1",
+    "@react-three/drei": "^9.105.0",
+    "@react-three/fiber": "^8.16.0",
+    "gsap": "^3.12.5",
+    "lucide-react": "^0.378.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.164.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.0",
+    "@types/three": "^0.164.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11"
+  }
+}
